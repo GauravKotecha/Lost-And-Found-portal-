@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Related_Lost_Item__c</fullName>
+    <fullName>Found_Item__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
-    <description>A link to the specific lost item record being verified.</description>
     <externalId>false</externalId>
-    <label>Related Lost Item</label>
-    <referenceTo>Lost_Item__c</referenceTo>
+    <label>Found Item</label>
+    <referenceTo>Found_Item__c</referenceTo>
     <relationshipLabel>Verification Cases</relationshipLabel>
-    <relationshipName>Related_Verification_Cases</relationshipName>
+    <relationshipName>Verification_Cases</relationshipName>
     <required>true</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
