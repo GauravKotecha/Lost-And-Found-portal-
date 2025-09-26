@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Item_Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open</fullName>
+                <default>true</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Potential Match</fullName>
+                <default>false</default>
+                <label>Potential Match</label>
+            </value>
+            <value>
+                <fullName>Matched/Returned</fullName>
+                <default>false</default>
+                <label>Matched/Returned</label>
+            </value>
+            <value>
+                <fullName>Closed - Unmatched</fullName>
+                <default>false</default>
+                <label>Closed - Unmatched</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
